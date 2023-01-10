@@ -11,15 +11,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      -name: Checkout repository
-        uses: actions/checkout@v2
-      -name: use Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: '18.x'
-      -name: Run Npm
-        run: npm
-      -name: Run build
-        run: npm build
+        - name: Checkout repository
+          uses: actions/checkout@v2
+        - name: use Node.js
+          uses: actions/setup-node@v1
+          with:
+            node-version: '18.x'
+        - name: Run Npm
+          run: npm
+        - name: Run build
+          run: npm build
       
         
