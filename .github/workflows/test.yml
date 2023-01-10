@@ -1,4 +1,3 @@
-yaml
 name: Todo List Frontend CI
 on:
   push:
