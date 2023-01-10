@@ -17,8 +17,6 @@ jobs:
           uses: actions/setup-node@v1
           with:
             node-version: '18.x'
-        - name: Run Npm
-          run: npm
         - name: Run build
           run: npm build
       
