@@ -4,6 +4,6 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
-  const todo = screen.getByTestId('todo');
+  const todo = screen.getByText('Todo List Page');
   expect(todo).toBeInTheDocument();
 });
